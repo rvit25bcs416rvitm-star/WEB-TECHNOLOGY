@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Vasiya. P – 5th Sem B.E. Computer Science student and Full-Stack Developer.">
+  <title>Resume | Vasiya. P</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="nav-brand">Vasiya. P</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biodata.html">Bio-data</a></li>
+      <li><a href="resume.html" class="active">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- Mobile Dropdown Menu -->
+  <ul class="mobile-menu" id="mobileMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="biodata.html">Bio-data</a></li>
+    <li><a href="resume.html" class="active">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <!-- Main Content Area -->
+  <main class="page-main">
+    <div class="section-container">
+      
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 25px; flex-wrap: wrap; gap: 10px;">
+        <h2 class="section-title" style="margin-bottom: 0;">Resume</h2>
+        <button onclick="window.print()" class="btn btn-primary no-print" style="padding: 8px 20px; font-size: 0.88rem;">
+          🖨️ Print / Save as PDF
+        </button>
+      </div>
+
+      <!-- Career Objective -->
+      <div class="resume-block">
+        <h3>Career Objective</h3>
+        <p>
+          Enthusiastic and results-oriented <strong>5th-semester Computer Science & Engineering</strong> student
+          with solid foundations in both <strong>Front-End</strong> and <strong>Back-End web development</strong>.
+          Proficient in creating dynamic user interfaces using modern HTML, CSS, JavaScript, and React,
+          coupled with building secure, scalable server-side REST APIs with Node.js and Express. Eager to leverage
+          hands-on full-stack development skills in an internship or software engineer trainee role.
+        </p>
+      </div>
+
+      <!-- Education Section -->
+      <div class="resume-block">
+        <h3>Education</h3>
+        <table class="edu-table">
+          <thead>
+            <tr>
+              <th>Qualification</th>
+              <th>Institution</th>
+              <th>Year</th>
+              <th>Percentage / CGPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>B.E. (CSE) – Ongoing (5th Semester)</strong></td>
+              <td>University College of Engineering</td>
+              <td>2023 – 2027</td>
+              <td><strong>CGPA: 8.5 / 10.0</strong></td>
+            </tr>
+            <tr>
+              <td>Higher Secondary Certificate (HSC - 12th)</td>
+              <td>State Board Higher Secondary School</td>
+              <td>2021 – 2023</td>
+              <td>91.0 %</td>
+            </tr>
+            <tr>
+              <td>Secondary School Leaving Certificate (SSLC - 10th)</td>
+              <td>State Board High School</td>
+              <td>2020 – 2021</td>
+              <td>93.5 %</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Technical Skills: Front End & Back End -->
+      <div class="resume-block">
+        <h3>Technical Skills (Front-End & Back-End)</h3>
+        
+        <p style="margin-bottom: 8px; font-weight: 600; color: var(--blue-dark);">🎨 Front-End Development:</p>
+        <ul class="skills-list fe" style="margin-bottom: 16px;">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Tailwind CSS</li>
+          <li>Bootstrap 5</li>
+          <li>DOM Manipulation</li>
+          <li>Responsive Web Design</li>
+          <li>Fetch API / Axios</li>
+        </ul>
+
+        <p style="margin-bottom: 8px; font-weight: 600; color: #166534;">⚙️ Back-End Development:</p>
+        <ul class="skills-list be" style="margin-bottom: 16px;">
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>RESTful APIs</li>
+          <li>JWT Authentication</li>
+          <li>Middleware Architecture</li>
+          <li>Core Java (OOP)</li>
+          <li>Python (Basics)</li>
+        </ul>
+
+        <p style="margin-bottom: 8px; font-weight: 600; color: var(--blue-dark);">🗄️ Databases & Tools:</p>
+        <ul class="skills-list">
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>Mongoose ODM</li>
+          <li>Git &amp; GitHub</li>
+          <li>Postman API Testing</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+
+      <!-- Areas of Interest -->
+      <div class="resume-block">
+        <h3>Areas of Interest</h3>
+        <ul class="skills-list">
+          <li>Full-Stack Web Development</li>
+          <li>Front-End UI/UX Design</li>
+          <li>Back-End REST API Architecture</li>
+          <li>Database Management Systems (DBMS)</li>
+          <li>Data Structures &amp; Algorithms</li>
+        </ul>
+      </div>
+
+      <!-- Projects -->
+      <div class="resume-block">
+        <h3>Full-Stack Projects</h3>
+        
+        <div class="project-card">
+          <h4>1. Campus Connect - Student Course Portal</h4>
+          <p class="project-tech">Tech Stack: HTML5, CSS3, JavaScript, Node.js, Express.js, MySQL</p>
+          <p>
+            A responsive course registration and academic tracking system. Features a clean semantic HTML5/CSS3
+            front-end with client-side form validation, integrated with a Node.js/Express back-end serving secure REST
+            endpoints with password hashing and relational MySQL database queries.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h4>2. MERN Stack E-Commerce Web App</h4>
+          <p class="project-tech">Tech Stack: React.js, Node.js, Express, MongoDB, Tailwind CSS</p>
+          <p>
+            An interactive full-stack e-commerce application. Built with modular React components, Context API state
+            management, shopping cart functionality, secure JSON Web Token (JWT) user authentication, and MongoDB CRUD operations.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h4>3. DevCollab - Real-Time Task Management Board</h4>
+          <p class="project-tech">Tech Stack: JavaScript (ES6+), HTML5, CSS3, Node.js, MongoDB (Mongoose)</p>
+          <p>
+            A Kanban-style task collaboration board with drag-and-drop DOM manipulation. Supported by modular
+            Express controllers and Mongoose schemas, with 20+ automated API endpoints validated using Postman.
+          </p>
+        </div>
+      </div>
+
+      <!-- Certifications & Achievements -->
+      <div class="resume-block">
+        <h3>Certifications &amp; Achievements</h3>
+        <ul style="padding-left: 20px; color: var(--text-muted); font-size: 0.95rem; line-height: 1.8;">
+          <li><strong>Full-Stack Web Development Certification:</strong> Comprehensive coursework covering HTML5, CSS3, modern JS, Node.js, and MongoDB.</li>
+          <li><strong>Hackathon Participant:</strong> Collaborated in a 24-hour inter-college Web Tech Hackathon, creating a working web solution.</li>
+          <li><strong>Problem Solving:</strong> Solved 150+ Data Structures and Algorithms problems on HackerRank / LeetCode.</li>
+        </ul>
+      </div>
+
+      <!-- Hobbies & Interests -->
+      <div class="resume-block">
+        <h3>Hobbies &amp; Interests</h3>
+        <ul class="skills-list">
+          <li>Competitive Programming</li>
+          <li>Reading Tech &amp; Engineering Blogs</li>
+          <li>Open Source Web Technologies</li>
+          <li>UI/UX Design Experimentation</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Vasiya. P. All rights reserved. • Web Technology Assignment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
